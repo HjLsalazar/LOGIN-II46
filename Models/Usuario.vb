@@ -24,7 +24,7 @@
                 .Nombre = Convert.ToString(row("Nombre")),
                 .Apellido = Convert.ToString(row("Apellidos")),
                 .Email = Convert.ToString(row("Email")),
-                .Password = Convert.ToString(row("Password"))
+                .Password = Convert.ToString(row("CONTRASEÑA"))
             }
         End If
         Return Nothing
